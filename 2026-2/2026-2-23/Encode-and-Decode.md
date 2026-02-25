@@ -13,7 +13,7 @@ The main thing when encoding to think about is [length of string][delimeter][str
 
 When decoding we can thus use the length of the string and two pointers to determine each word, then spit the word into a list of the words and boom its completed.
 
-The delimeter has to be something unique and the other thing to think about is basically edge cases such as what if the string in the list has a space ["Hello World", "Sup"], this would mean if we used space as a delimeter it could cause issues.
+The delimiter has to be something unique and the other thing to think about is basically edge cases such as what if the string in the list has a space ["Hello World", "Sup"], this would mean if we used space as a delimeter it could cause issues.
 
 I just really hate this question. But at least its useful irl like HTTP, Zip files etc.. all use similar context.
 ```python
